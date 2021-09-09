@@ -1,0 +1,36 @@
+{
+"desktop":"nature_0018.jpg",
+"gridSize":"15",
+"theme":"#0014fa",
+"apps":[
+	{
+		"icon":"my-computer-icon.jpg", 
+		"title":"My Computer", 
+		"app-id":"my-com", 
+		"window":"mycomputerexplorer.jpg"
+	},
+	{
+		"icon":"my_documents.png", 
+		"title":"My Documents", 
+		"app-id":"my-doc", 
+		"window":"mydocumentsexplorer.jpg"
+	}
+],
+"taskbarWidgets":[
+		{
+		"image": "word.png",
+		"title": "Word"
+		},
+		{
+		"image": "excel.png",
+		"title": "Excel"
+		},
+		{
+		"image": "powerpoint.png",
+		"title": "PowerPoint"
+		}
+	],
+"taskbarAlpha":"80",
+"taskbarColor":"white",
+"startMenu":"start-menu.png"
+}

@@ -7,6 +7,80 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.appIcon{
+  position: absolute;
+  z-index: 9;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+}
+
+.appIcon img{
+  width: 48px;
+  height: 48px;
+}
+
+.appTitle{
+  -webkit-text-stroke:0.7px black;
+  -webkit-text-fill-color:white;
+  text-shadow: 2px 2px 7px black;
+  width: 50px;
+  text-align: center;
+
+}
+
+#root {
+  margin: 0;
+}
+
+#wallpaper, #root{
+  height: 100vh;
+  width: 100%;
+}
+
+#wallpaper{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  padding: 0;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.taskBar{
+  height: 7vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  z-index: 12;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  vertical-align: middle;
+}
+
+.widget{
+  opacity: 100%;
+  margin: 4px;
+}
+
+.widget img{
+  width: 36px;
+  height: 34px;
+}
+
+#start-menu{
+  width: 48px;
+  height: 46px;
+}
+
+.taskbar-middle{
+  display: grid;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
